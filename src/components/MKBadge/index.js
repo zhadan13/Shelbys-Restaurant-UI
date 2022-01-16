@@ -4,6 +4,7 @@ import PropTypes from "prop-types";
 
 import MKBadgeRoot from "components/MKBadge/MKBadgeRoot";
 
+// eslint-disable-next-line react/display-name
 const MKBadge = forwardRef(
   ({ color, variant, size, circular, indicator, border, container, children, ...rest }, ref) => (
     <MKBadgeRoot

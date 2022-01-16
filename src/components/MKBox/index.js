@@ -4,6 +4,7 @@ import PropTypes from "prop-types";
 
 import MKBoxRoot from "components/MKBox/MKBoxRoot";
 
+// eslint-disable-next-line react/display-name
 const MKBox = forwardRef(
   ({ variant, bgColor, color, opacity, borderRadius, shadow, coloredShadow, ...rest }, ref) => (
     <MKBoxRoot
