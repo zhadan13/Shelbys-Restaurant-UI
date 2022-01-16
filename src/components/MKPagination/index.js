@@ -8,6 +8,7 @@ import MKPaginationItemRoot from "components/MKPagination/MKPaginationItemRoot";
 
 const Context = createContext();
 
+// eslint-disable-next-line react/display-name
 const MKPagination = forwardRef(
   ({ item, variant, color, size, active, children, placement, ...rest }, ref) => {
     const context = item ? useContext(Context) : null;

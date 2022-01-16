@@ -4,6 +4,7 @@ import PropTypes from "prop-types";
 
 import MKButtonRoot from "components/MKButton/MKButtonRoot";
 
+// eslint-disable-next-line react/display-name
 const MKButton = forwardRef(
   ({ color, variant, size, circular, iconOnly, children, ...rest }, ref) => (
     <MKButtonRoot

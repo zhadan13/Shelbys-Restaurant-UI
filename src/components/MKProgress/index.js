@@ -6,6 +6,7 @@ import MKTypography from "components/MKTypography";
 
 import MKProgressRoot from "components/MKProgress/MKProgressRoot";
 
+// eslint-disable-next-line react/display-name
 const MKProgress = forwardRef(({ variant, color, value, label, ...rest }, ref) => (
   <>
     {label && (

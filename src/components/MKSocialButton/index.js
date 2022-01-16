@@ -4,6 +4,7 @@ import PropTypes from "prop-types";
 
 import MKSocialButtonRoot from "components/MKSocialButton/MKSocialButtonRoot";
 
+// eslint-disable-next-line react/display-name
 const MKSocialButton = forwardRef(({ color, size, iconOnly, circular, children, ...rest }, ref) => (
   <MKSocialButtonRoot
     {...rest}

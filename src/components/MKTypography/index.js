@@ -4,6 +4,7 @@ import PropTypes from "prop-types";
 
 import MKTypographyRoot from "components/MKTypography/MKTypographyRoot";
 
+// eslint-disable-next-line react/display-name
 const MKTypography = forwardRef(
   (
     { color, fontWeight, textTransform, verticalAlign, textGradient, opacity, children, ...rest },
