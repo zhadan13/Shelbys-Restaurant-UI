@@ -40,7 +40,7 @@ export default styled(Typography)(({ theme, ownerState }) => {
     textDecoration: "none",
     color: colorValue,
     letterSpacing: "-0.125px",
-    fontWeight: fontWeights[fontWeight] && fontWeights[fontWeight],
+    fontWeight: fontWeights[fontWeight],
     ...(textGradient && gradientStyles()),
   };
 });

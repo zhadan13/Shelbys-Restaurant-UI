@@ -115,8 +115,8 @@ export default styled(Badge)(({ theme, ownerState }) => {
       ...(indicator && indicatorStyles(size)),
       ...(variant === "gradient" && gradientStyles(color)),
       ...(variant === "contained" && containedStyles(color)),
-      ...(!children && !container && standAloneStyles(color)),
-      ...(container && containerStyles(color)),
+      ...(!children && !container && standAloneStyles()),
+      ...(container && containerStyles()),
     },
   };
 });
