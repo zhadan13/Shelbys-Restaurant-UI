@@ -1,1 +1,1 @@
-# Shelby's Restaurant frontend service
+# Shelby's Restaurant frontend service UI template (Archive)
